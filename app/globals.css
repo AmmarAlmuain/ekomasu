@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply min-h-screen w-full flex justify-center items-start bg-wall;
+}
+
+.-center {
+  @apply flex justify-center items-center;
+}
+
+.-center-col {
+  @apply flex flex-col justify-center items-center;
+}
+
+.shrink-sides {
+  @apply px-32;
+}
+
+.full {
+  @apply w-full h-full;
+}
+
+.border-color {
+  @apply border-b-slate-300/90;
+}
+
+.third-gradient {
+  background: rgb(18, 127, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(18, 127, 255, 1) 0%,
+    rgba(0, 103, 255, 1) 100%
+  );
+}
