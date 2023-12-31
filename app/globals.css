@@ -23,7 +23,11 @@ body {
 }
 
 .border-color {
-  @apply border-b-slate-300/90;
+  @apply border-b-[#DEE2E7];
+}
+
+.border-b-color {
+  @apply border-b-[#DEE2E7];
 }
 
 .third-gradient {
