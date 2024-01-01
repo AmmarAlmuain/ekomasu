@@ -1,4 +1,4 @@
-import Countdown from "./Countdown";
+import Offers from "./Offers";
 import Item from "./Item";
 
 export default function Sale() {
@@ -6,7 +6,7 @@ export default function Sale() {
     <>
       <section className="flex border-color h-full mt-4 justify-center items-center gap-x-4 border-2 bg-white rounded-md">
         <div className="w-full min-h-72 flex justify-center item-center">
-          <Countdown />
+          <Offers />
           <div className="w-full flex">
             <Item
               src="https://media.discordapp.net/attachments/1025486564165427353/1191320173026746408/image.png?ex=65a5025e&is=65928d5e&hm=3ab6d54e62445f2b0493cbba9ea783cbc13dd4ab3ff4f7dae4f096c7d0914e4b&=&format=webp&quality=lossless&width=255&height=303"

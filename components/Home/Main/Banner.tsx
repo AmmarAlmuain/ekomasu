@@ -8,8 +8,8 @@ export default function Banner() {
         <div className="relative max-h-[360px] w-full rounded-xl overflow-hidden">
           <img
             src="https://i.ibb.co/LhgvpfX/image.png"
-            alt="home-banner"
-            className="object-cover"
+            alt="home banner"
+            className="object cover"
           />
           <div className="flex flex-col gap-y-4 p-12 text-start justify-center items-start absolute top-0">
             <div>

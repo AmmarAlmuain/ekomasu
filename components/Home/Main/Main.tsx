@@ -6,7 +6,7 @@ export default function Main() {
   return (
     <>
       <section>
-        <div className="flex border-color justify-center items-center max-h-[400px] gap-x-4 border bg-white rounded-md p-4">
+        <div className="flex border-color justify-center items-center max-h-[400px] gap-x-4 border-2 bg-white rounded-md p-4">
           <Menu />
           <Banner />
           <section className="flex flex-col gap-y-2">
@@ -14,7 +14,7 @@ export default function Main() {
               <div className="flex text-primary gap-x-3 justify-start items-center">
                 <img
                   src="https://i.ibb.co/d7F8n5s/image.png"
-                  alt="user-profile"
+                  alt="user profile"
                   className="w-11 h-11"
                 />
                 <p>

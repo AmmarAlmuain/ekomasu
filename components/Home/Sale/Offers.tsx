@@ -1,8 +1,8 @@
-export default function Countdown() {
+export default function Offers() {
   return (
     <>
       <section className="w-full">
-        <div className="w-full h-full flex justify-center items-center">
+        <div className="w-full min-w-[293px] h-full flex justify-center items-center">
           <div className="flex flex-col w-full gap-y-4 p-12 text-start justify-center items-start">
             <div>
               <h3 className="text-xl text-primary font-semibold">
