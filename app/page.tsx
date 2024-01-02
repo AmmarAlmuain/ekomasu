@@ -1,4 +1,5 @@
 import Block from "@/components/Home/Block/Block";
+import Inquiry from "@/components/Home/Inquiry/Inquiry";
 import Main from "@/components/Home/Main/Main";
 import Sale from "@/components/Home/Sale/Sale";
 import { block } from "@/data/block.data";
@@ -18,6 +19,7 @@ export default function Home() {
         items={block["2"]}
         src="https://media.discordapp.net/attachments/1025486564165427353/1191460828281581648/image.png?ex=65a5855d&is=6593105d&hm=4025a399033771eb06fb94355adf72a7b2439c1cff59d1c496847c50a999e5d9&=&format=webp&quality=lossless&width=700&height=642"
       />
+      <Inquiry />
     </main>
   );
 }
