@@ -20,11 +20,11 @@ export default function Form() {
         <div className="flex gap-x-2">
           <input
             type="number"
-            className="min-w-52 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none w-full outline-none bg-white px-2 border-2 border-color h-10 rounded-md placeholder:text-primary text-primary"
+            className="max-w-52 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none w-full outline-none bg-white px-2 border-2 border-color h-10 rounded-md placeholder:text-primary text-primary"
             placeholder="Quantity"
           />
           <div className="px-2 pl-2 rounded-md w-28 cursor-pointer text-primary border-2 border-color">
-            <select className="outline-none full cursor-pointer full bg-white text-primary">
+            <select className="outline-none shadow-none full cursor-pointer full bg-white text-primary">
               <option selected>Pcs</option>
             </select>
           </div>
