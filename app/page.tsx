@@ -1,4 +1,5 @@
 import Block from "@/components/Home/Block/Block";
+import Country from "@/components/Home/Country/Country";
 import Inquiry from "@/components/Home/Inquiry/Inquiry";
 import Main from "@/components/Home/Main/Main";
 import Recommended from "@/components/Home/Recommended/Recommended";
@@ -24,6 +25,7 @@ export default function Home() {
       <Inquiry />
       <Recommended />
       <Service />
+      <Country />
     </main>
   );
 }
