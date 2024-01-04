@@ -4,7 +4,7 @@ export default function LNews() {
   return (
     <>
       <section className="w-full h-48 mt-8">
-        <div className="full -center-col gap-y-6 bg-lnews">
+        <div className="full -center-col gap-y-6 bg-faded-white">
           <div className="-center-col">
             <h2 className="font-semibold text-xl text-primary">
               Subscribe on our newsletter
