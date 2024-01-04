@@ -16,6 +16,7 @@ const config: Config = {
         fourth: "#E5F1FF",
         ocard: "#F38332",
         bcard: "#55BDC3",
+        lnews: "#EFF2F4",
       },
     },
   },
