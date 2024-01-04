@@ -3,7 +3,7 @@ import Inquiry from "@/components/Home/Inquiry/Inquiry";
 import Main from "@/components/Home/Main/Main";
 import Recommended from "@/components/Home/Recommended/Recommended";
 import Sale from "@/components/Home/Sale/Sale";
-import Service from "@/components/Home/Service/service";
+import Service from "@/components/Home/Service/Service";
 import { block } from "@/data/block";
 
 export default function Home() {

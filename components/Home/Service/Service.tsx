@@ -2,7 +2,7 @@ import Inventory from "@/components/Icons/Inventory";
 import Item from "./Item";
 import Magnifying from "@/components/Icons/Magnifying";
 import Send from "@/components/Icons/Send";
-import Security from "@/components/Icons/security";
+import Security from "@/components/Icons/Security";
 
 export default function Service() {
   return (
