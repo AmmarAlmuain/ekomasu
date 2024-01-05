@@ -10,7 +10,7 @@ export default function Item({
 }) {
   return (
     <>
-      <div className="w-48 h-full border-l-2 border-color cursor-pointer">
+      <div className="w-48 h-full max-xl:p-4 max-h-72 max-xl:border-2 max-xl:rounded-md max-xl:flex-auto border-l-2 border-color cursor-pointer">
         <div className="h-full flex gap-y-2 flex-col justify-center items-center">
           <div>
             <img

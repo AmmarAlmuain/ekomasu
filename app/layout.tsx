@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="flex flex-col full">
+        <main className="flex flex-col full overflow-hidden">
           <Header />
           <Nav />
           {children}

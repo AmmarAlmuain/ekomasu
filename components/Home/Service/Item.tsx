@@ -12,7 +12,7 @@ export default function Item({
 }) {
   return (
     <>
-      <div className="w-72 h-52">
+      <div className="w-72 h-52 max-xl:flex-auto">
         <div className="max-h-32 overflow-hidden rounded-tl-md rounded-tr-md">
           <img
             src={src}

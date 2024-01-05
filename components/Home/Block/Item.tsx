@@ -15,7 +15,7 @@ export default function Item({
   return (
     <>
       <div
-        className="w-[240px] cursor-pointer h-2/4 relative border-color"
+        className="w-[240px] max-xl:flex-auto h-[130px] max-xl:rounded-md max-xl:border-2 cursor-pointer relative border-color"
         style={{
           borderBottom: BBorder ? "2px solid #DEE2E7" : "",
           borderLeft: LBorder ? "2px solid #DEE2E7" : "",

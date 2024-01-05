@@ -1,7 +1,7 @@
 export default function Menu() {
   return (
     <>
-      <section>
+      <section className="max-xl:hidden">
         <ul>
           <li className="w-64 cursor-pointer text-primary rounded-md font-medium h-10 flex justify-start items-center px-2 bg-fourth duration-300">
             <span>Automobiles</span>

@@ -7,11 +7,11 @@ import Security from "@/components/Icons/Security";
 export default function Service() {
   return (
     <>
-      <section>
-        <h2 className="text-primary text-2xl pt-6 pb-8 font-semibold">
+      <section className="max-xl:bg-white max-xl:border-2 max-xl:border-color max-xl:p-4">
+        <h2 className="text-primary text-2xl max-xl:pb-6 max-xl:pt-0 pt-6 pb-8 font-semibold">
           Our extra services
         </h2>
-        <div className="flex justify-between gap-y-8 items-start flex-wrap">
+        <div className="flex justify-between gap-y-8 items-start max-xl:gap-4 flex-wrap">
           <Item
             src="https://media.discordapp.net/attachments/1025486564165427353/1192371622166937700/image.png?ex=65a8d59b&is=6596609b&hm=3f62f4d8e0133a2795231a6ba2a0833a2a142e41bd219797488567d4e4049fb0&=&format=webp&quality=lossless&width=700&height=300"
             icon={<Magnifying />}

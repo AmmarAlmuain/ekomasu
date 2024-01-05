@@ -4,10 +4,15 @@ import Item from "./Item";
 export default function Sale() {
   return (
     <>
-      <section className="flex border-color h-full mt-4 justify-center items-center gap-x-4 border-2 bg-white rounded-md">
-        <div className="w-full min-h-72 flex justify-center item-center">
-          <Offers />
-          <div className="w-full flex">
+      <section className="flex max-xl:flex-col max-xl:rounded-none max-xl:justify-between max-xl:p-4 border-color h-full mt-4 justify-center items-center gap-x-4 border-2 bg-white rounded-md">
+        <h2 className="text-primary text-2xl pb-6 w-full text-left hidden max-xl:flex font-semibold">
+          Deals and offers
+        </h2>
+        <div className="w-full min-h-72 max-xl:full flex justify-center item-center">
+          <div className="max-xl:hidden">
+            <Offers />
+          </div>
+          <div className="w-full flex max-xl:gap-4 max-xl:flex-wrap max-xl:h-full">
             <Item
               src="https://media.discordapp.net/attachments/1025486564165427353/1191320173026746408/image.png?ex=65a5025e&is=65928d5e&hm=3ab6d54e62445f2b0493cbba9ea783cbc13dd4ab3ff4f7dae4f096c7d0914e4b&=&format=webp&quality=lossless&width=255&height=303"
               name="Smart watches"
