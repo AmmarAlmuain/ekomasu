@@ -3,7 +3,7 @@ import { appleButtonStore, googleButtonStore } from "../BStores";
 export default function DGroup() {
   return (
     <>
-      <div className="flex flex-col justify-start items-start gap-y-2">
+      <div className="flex max-lg:hidden flex-col justify-start items-start gap-y-2">
         <li className="text-primary font-medium decoration-transparent list-none">
           Get app
         </li>

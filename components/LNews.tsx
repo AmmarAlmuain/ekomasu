@@ -9,12 +9,12 @@ export default function LNews() {
             <h2 className="font-semibold text-xl text-primary">
               Subscribe on our newsletter
             </h2>
-            <span className="text-secondary">
+            <span className="text-secondary max-xl:text-sm text-center max-w-72">
               Get daily news on upcoming offers from many suppliers all over the
               world
             </span>
           </div>
-          <form className="-center w-full gap-x-2">
+          <form className="-center max-xl:px-4 w-full gap-x-2">
             <div className="max-w-72 w-full relative -center">
               <input
                 type="email"
@@ -27,7 +27,7 @@ export default function LNews() {
             </div>
             <button
               type="submit"
-              className="rounded-md text-white third-gradient px-4 h-10"
+              className="rounded-md max-xl:text-sm text-white third-gradient px-4 max-xl:px-2 h-10"
             >
               Subscribe
             </button>
