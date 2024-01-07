@@ -6,10 +6,10 @@ export default function Main() {
   return (
     <>
       <section>
-        <div className="flex border-color justify-center items-center max-h-[400px] gap-x-4 border-2 bg-white rounded-md p-4">
+        <div className="flex border-color max-md:border-none max-xl:rounded-none max-md:p-0 max-md:rounded-none justify-center items-center max-h-[400px] gap-x-4 border-2 bg-white rounded-md p-4">
           <Menu />
           <Banner />
-          <section className="flex flex-col gap-y-2">
+          <section className="flex flex-col gap-y-2 max-md:hidden">
             <div className="bg-fourth w-64 p-4 rounded-md">
               <div className="flex text-primary gap-x-3 justify-start items-center">
                 <img

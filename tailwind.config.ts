@@ -17,6 +17,7 @@ const config: Config = {
         ocard: "#F38332",
         bcard: "#55BDC3",
         fpink: '#FFE5BF'
+        "faded-white": "#EFF2F4",
       },
     },
   },

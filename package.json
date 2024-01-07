@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@smastrom/react-rating": "^1.4.0",
+    "country-flag-icons": "^1.5.9",
     "next": "14.0.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-social-icons": "^6.7.0"
   },
   "devDependencies": {
     "@types/node": "^20",
