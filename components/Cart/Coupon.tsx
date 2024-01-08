@@ -1,16 +1,16 @@
 function Coupon() {
   return (
-    <div className=" w-full max-w-[280px] p-6 bg-white mb-4 border border-gray-300 rounded">
-      <form action="input" className="flex flex-col">
-        <label htmlFor="coupon">Do you have a coupon?</label>
-        <div className="flex border-2 px-2 rounded">
+    <div className=" w-full max-w-[280px] p-6 bg-white mb-4 border border-color rounded">
+      <form className="flex flex-col gap-y-2 w-full">
+        <span className="text-gray-600">Have a coupon?</span>
+        <div className="flex border-2 border-color rounded-md">
           <input
             id="coupon"
             type="text"
-            className="bg-white focus:border-transparent focus:outline-none w-3/4"
+            className="px-2 bg-transparent text-primary bg-none outline-none h-10 w-full"
             placeholder="add coupon"
           />
-          <button className="border-l-2 px-6 py-2.5 font-bold text-third">
+          <button className="border-l-2 border-color min-w-20 h-10 -center font-medium text-third">
             Apply
           </button>
         </div>
