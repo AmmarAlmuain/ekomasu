@@ -2,7 +2,7 @@
 import React from "react";
 import Item from "./Item";
 import Coupon from "./Coupon";
-import SAside from "./SAside";
+import Checkout from "./Checkout";
 import RItem from "./RItem";
 import Message from "../Icons/Message";
 import Lock from "../Icons/Lock";
@@ -28,7 +28,7 @@ function Cart() {
         </div>
         <div className="w-full max-w-[280px]">
           <Coupon />
-          <SAside />
+          <Checkout />
         </div>
       </div>
       <div className="flex justify-start w-full gap-x-16">
