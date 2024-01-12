@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { Visa, Mastercard, Paypal, Amazon, Maestro } from "react-pay-icons";
 
-function AsideSummary() {
+function SAside() {
   return (
     <div className="flex flex-col bg-white border gap-y-2 border-gray-300 rounded px-4 py-6">
       <div className="flex justify-between">
@@ -35,4 +35,4 @@ function AsideSummary() {
   );
 }
 
-export default AsideSummary;
+export default SAside;
