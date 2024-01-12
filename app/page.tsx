@@ -11,7 +11,7 @@ import { block } from "@/data/block";
 export default function Home() {
   return (
     <>
-      <main className="flex flex-col my-4 gap-y-4 max-xl:px-0 shrink-sides overflow-hidden">
+      <main className="flex flex-col my-4 gap-y-4 overflow-hidden">
         <Main />
         <Sale />
         <Block

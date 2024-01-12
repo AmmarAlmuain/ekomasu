@@ -9,13 +9,13 @@ export default function RItem({
   description: string;
 }) {
   return (
-    <div>
+    <div className="flex-auto">
       <div className="flex-col flex flex-wrap flex-auto gap-y-2">
-        <div className="h-64 w-72 -center bg-[#eeeeee] rounded-md">
+        <div className="h-64 w-full min-w-64 -center bg-[#eeeeee] rounded-md">
           <img src={src} alt="item" className="h-64 w-64 rounded-md" />
         </div>
         <span className="text-primary">${price}</span>
-        <p className="w-48">{description}</p>
+        <p className="w-48 mb-2">{description}</p>
         <button className=" flex border-2 justify text-third-center rounded-md h-10 px-4 -center gap-x-4">
           <ICart />
           <p className="text-third font-medium">Move to cart</p>

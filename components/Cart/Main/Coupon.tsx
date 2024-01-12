@@ -1,6 +1,6 @@
-function Coupon() {
+export default function Coupon() {
   return (
-    <div className=" w-full max-w-[280px] p-6 bg-white mb-4 border border-color rounded">
+    <div className=" w-full max-w-[280px] max-md:max-w-full p-6 bg-white mb-4 max-sm:rounded-none border-2 border-color rounded-md">
       <form className="flex flex-col gap-y-2 w-full">
         <span className="text-gray-600">Have a coupon?</span>
         <div className="flex border-2 border-color rounded-md">
@@ -18,5 +18,3 @@ function Coupon() {
     </div>
   );
 }
-
-export default Coupon;

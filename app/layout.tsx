@@ -23,7 +23,7 @@ export default function RootLayout({
         <main className="flex flex-col full overflow-hidden">
           <Header />
           <Nav />
-          {children}
+          <div className="shrink-sides max-xl:px-0">{children}</div>
           <Footr />
         </main>
       </body>

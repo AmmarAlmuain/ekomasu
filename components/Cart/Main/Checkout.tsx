@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import { Visa, Mastercard, Paypal, Amazon, Maestro } from "react-pay-icons";
 
-function Checkout() {
+export default function Checkout() {
   return (
-    <div className="flex flex-col bg-white border gap-y-2 border-gray-300 rounded px-4 py-6">
+    <div className="flex flex-col bg-white border-2 gap-y-2 border-color rounded-md max-sm:rounded-none px-4 py-6">
       <div className="flex justify-between">
         <span className="text-gray-600">Subtotal:</span>
         <span className="text-gray-600"> $1403.97</span>
@@ -34,5 +34,3 @@ function Checkout() {
     </div>
   );
 }
-
-export default Checkout;
