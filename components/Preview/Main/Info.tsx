@@ -16,7 +16,7 @@ function Info() {
   };
 
   return (
-    <div className="flex flex-col gap-y-2">
+    <div className="flex flex-col gap-y-2 max-sm:p-5">
       <div className="w-full flex gap-x-1.5 justify-start items-center text-[#00B517]">
         <svg
           width="18"
@@ -53,7 +53,7 @@ function Info() {
         </p>
       </div>
 
-      <div className=" flex p-2 gap-x-12 items-center bg-[#FFF0DF] justify-start">
+      <div className=" flex p-2 gap-x-12 max-sm:gap-x-6 items-center bg-[#FFF0DF] justify-start">
         <div className="flex">
           <div className="flex flex-col justify-center items-start">
             <span className="text-red-600/70 font-semibold text-lg">
@@ -87,39 +87,39 @@ function Info() {
 
       <div className="text-lg w-full">
         <div className="flex border-b-2 w-full py-2 gap-y-4">
-          <div className="flex items-center">
+          <div className="flex items-center max-lg:flex-col max-lg:items-start">
             <span className="w-36 text-base">Price:</span>
             <span className="text-[#505050] text-base">Negotiable</span>
           </div>
         </div>
 
         <div className="flex flex-col border-b-2 w-full py-4 gap-y-4">
-          <div className="flex items-center">
+          <div className="flex items-center max-lg:flex-col max-lg:items-start">
             <span className="w-36 text-base">Type:</span>
             <span className="text-[#505050] text-base">Classic shoes</span>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center max-lg:flex-col max-lg:items-start">
             <span className="w-36 text-base">Material:</span>
             <span className="text-[#505050] text-base">Plastic material</span>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center max-lg:flex-col max-lg:items-start">
             <span className="w-36 text-base">Design:</span>
             <span className="text-[#505050] text-base">Modern nice</span>
           </div>
         </div>
 
-        <div className="flex flex-col border-b-2 w-full py-4 gap-y-4">
-          <div className="flex items-center">
+        <div className="flex flex-col border-b-2 max-lg:border-b-0 w-full max-lg:pb-4 py-4 gap-y-4">
+          <div className="flex items-center max-lg:flex-col max-lg:items-start">
             <span className="w-36 text-base">Customization:</span>
             <span className="text-[#505050] text-base w-48">
               Customized logo and design custom packages
             </span>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center max-lg:flex-col max-lg:items-start">
             <span className="w-36 text-base">Protection:</span>
             <span className="text-[#505050] text-base">Refund Policy</span>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center max-lg:flex-col max-lg:items-start">
             <span className="w-36 text-base">Warranty:</span>
             <span className="text-[#505050] text-base">
               2 years full warranty
@@ -127,7 +127,7 @@ function Info() {
           </div>
         </div>
       </div>
-      <div className="my-3"></div>
+      <div className="my-3 max-lg:hidden"></div>
     </div>
   );
 }

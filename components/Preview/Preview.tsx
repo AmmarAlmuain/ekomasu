@@ -6,7 +6,7 @@ import Breadcrumbs from "./Breadcrumbs";
 
 function Preview() {
   return (
-    <section className="bg-wall w-full max-w-full justify-center flex flex-col shrink-sides">
+    <section className="bg-wall w-full py-8 gap-y-8 max-w-full justify-center flex flex-col">
       <Breadcrumbs />
       <Main />
       <Details />

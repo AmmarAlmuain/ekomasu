@@ -2,7 +2,7 @@ import Actions from "./Actions";
 
 function DBlock() {
   return (
-    <div className="border-color w-full flex flex-col rounded-md border-2">
+    <div className="border-color w-full flex max-lg:rounded-none flex-col rounded-md border-2">
       <Actions />
       <div className="w-full flex flex-col py-6 px-4 gap-y-4">
         <p className="text-primary">

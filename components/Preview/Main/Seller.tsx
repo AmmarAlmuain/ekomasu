@@ -5,7 +5,7 @@ import { DE } from "country-flag-icons/react/3x2";
 
 export default function Seller() {
   return (
-    <div className=" w-full max-w-[280px] flex flex-col gap-y-6">
+    <div className=" w-full max-w-[280px] max-lg:max-w-full max-sm:pb-4 flex flex-col gap-y-6">
       <div className="border-2 rounded-md border-color py-6 px-4">
         <div className="flex gap-x-3">
           <img

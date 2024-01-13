@@ -1,10 +1,10 @@
 import Item from "./Item";
 
-function Suggestions() {
+export default function Suggestions() {
   return (
-    <div className="px-4 py-6 bg-white border-2 border-color rounded-md flex flex-col gap-y-4 min-w-72">
+    <div className="px-4 py-6 max-lg:hidden bg-white border-2 border-color rounded-md flex h-full flex-col gap-y-4 min-w-72">
       <h2 className="font-bold text-primary text-xl">You may like</h2>
-      <div className="flex gap-4 justify-between flex-col w-full m-auto">
+      <div className="flex gap-4 items-start justify-start flex-col w-full">
         <Item />
         <Item />
         <Item />
@@ -14,5 +14,3 @@ function Suggestions() {
     </div>
   );
 }
-
-export default Suggestions;

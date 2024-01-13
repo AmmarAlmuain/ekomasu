@@ -6,7 +6,7 @@ export default function Recommended() {
       <section>
         <div className="px-4 py-6 bg-white w-full border-2 border-color rounded-md flex flex-col gap-y-4">
           <h2 className="font-bold text-primary text-xl">Saved for later</h2>
-          <div className=" flex gap-6 flex-wrap">
+          <div className="flex gap-6 flex-wrap">
             <Item
               src="https://cdn.discordapp.com/attachments/1191096855560454287/1192543718855692338/image.png?ex=65a975e2&is=659700e2&hm=44fde9584c2ed54cbe5f63eead67e40d1c1b70fad5ca118556ecb5bfff1f6645&"
               price={92.8}
