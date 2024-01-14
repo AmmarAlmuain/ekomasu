@@ -2,9 +2,9 @@ export default function Logo() {
   return (
     <>
       <svg
-        width="151"
+        width="130"
         height="46"
-        viewBox="0 0 151 46"
+        viewBox="0 0 130 46"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         className="cursor-pointer"
