@@ -1,18 +1,19 @@
 import Breadcrumbs from "@/components/Products/Breadcrumbs";
+import LItem from "@/components/Products/LItem";
 import Sidebar from "@/components/Products/Sidebar";
 
 export default function Products() {
   return (
     <>
-      <section className="shrink-sides w-full">
+      <section className="w-full">
         <Breadcrumbs />
-        <div className="flex pb-8 w-full">
+        <div className="flex pb-8 w-full max-md:flex-col">
           <Sidebar />
-          <div className="w-full flex-col items-end flex gap-4 px-8">
-            <div className="w-full h-[60px] rounded-md border-2 px-4 border-color flex justify-between items-center bg-white">
+          <div className="w-full flex-col items-end max-md:px-0 flex gap-4 px-8">
+            <div className="w-full h-[60px] gap-x-2 max-md:rounded-none rounded-md border-2 px-4 border-color flex justify-between items-center bg-white">
               <div className="text-primary">
                 <p>
-                  <span> 12,911 items </span> in{" "}
+                  <span> 12,911 items </span> in
                   <span className="font-semibold"> Mobile accessory </span>
                 </p>
               </div>
@@ -26,7 +27,10 @@ export default function Products() {
                 </div>
               </div>
             </div>
-            <div className="border-color border-2 rounded-md w-fit">
+            <div className="w-full">
+              <LItem />
+            </div>
+            <div className="border-color border-2 rounded-md w-fit max-md:mr-4">
               <button className=" bg-white border-none w-10 h-10 rounded-md">
                 <span className="text-primary">1</span>
               </button>

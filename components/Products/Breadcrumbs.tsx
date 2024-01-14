@@ -1,7 +1,7 @@
 export default function Breadcrumbs() {
   return (
     <>
-      <div className="h-16 w-full text-secondary flex justify-start items-center">
+      <div className="h-16 w-full px-4 text-secondary flex justify-start items-center">
         <div className="text-sm breadcrumbs">
           <ul>
             <li>

@@ -7,7 +7,7 @@ import SCollapose from "./SCollapse";
 export default function Sidebar() {
   return (
     <>
-      <section className="w-60 h-full flex flex-col justify-start items-center">
+      <section className="w-60 max-md:w-full max-md:mb-4 h-full flex flex-col justify-start items-center">
         <Collapse
           list={[
             "Mobile accessory",
